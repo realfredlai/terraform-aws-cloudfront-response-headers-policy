@@ -2,6 +2,25 @@
 
 This module manages the creation of Response Headers Policy for the CloudFront with features provided by Terraform AWS provider. It allows you to define and customize HTTP response headers to enhance security, improve performance, and ensure compliance with best practices. Use this module to simplify the configuration of response headers for your CloudFront distributions.
 
+## Usage
+
+```hcl
+module "cloudfront_response_headers_policy" {
+  source  = "realfredlai/cloudfront-response-headers-policy/aws"
+
+  name    = "example-policy"
+  comment = "test comment"
+
+  cors_config = {
+    access_control_allow_credentials = false
+    access_control_allow_headers     = ["*"]
+    access_control_allow_methods     = ["GET", "HEAD"]
+    access_control_allow_origins     = ["*"]
+    origin_override                  = true
+  }
+}
+```
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
