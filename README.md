@@ -21,6 +21,11 @@ module "cloudfront_response_headers_policy" {
 }
 ```
 
+## Examples
+
+- [Basic example](https://github.com/realfredlai/terraform-aws-cloudfront-response-headers-policy/tree/main/examples/basic)
+- [Complete example](https://github.com/realfredlai/terraform-aws-cloudfront-response-headers-policy/tree/main/examples/complete)
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
