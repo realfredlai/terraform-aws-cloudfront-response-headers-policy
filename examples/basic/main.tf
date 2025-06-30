@@ -1,6 +1,5 @@
 module "cloudfront_response_headers_policy" {
-  source  = "realfredlai/cloudfront-response-headers-policy/aws"
-  version = "0.1.0"
+  source = "../../"
 
   name    = "example-policy"
   comment = "test comment"

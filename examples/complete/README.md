@@ -30,7 +30,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_cloudfront_response_headers_policy"></a> [cloudfront\_response\_headers\_policy](#module\_cloudfront\_response\_headers\_policy) | realfredlai/cloudfront-response-headers-policy/aws | 0.1.0 |
+| <a name="module_cloudfront_response_headers_policy"></a> [cloudfront\_response\_headers\_policy](#module\_cloudfront\_response\_headers\_policy) | ../../ | n/a |
 
 ## Resources
 
